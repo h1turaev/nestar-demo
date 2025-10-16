@@ -9,7 +9,7 @@ const withLayoutBasic = (Component: any) => {
           <title>Nestar</title>
         </Head>
         <Stack id="pc-wrap">
-      <Stack sx={{ background: "#81c784" }}>Header Basic</Stack>
+          <Stack sx={{ background: "#81c784" }}>Header Basic</Stack>
 
           <Stack id="main">
             <Component {...props} />
