@@ -3,9 +3,10 @@ import { Container, Stack } from "@mui/material";
 import { NextPage } from "next";
 
 const PropertyList: NextPage = () => {
-  console.log("PROPERTYLIST COMPONENT – PAGES ROUTER");
-  return ( 
-      <Container>PROPERTY LIST</Container>
+  return (
+    <div style={{ margin: "20px 0" }}>
+      <Stack className="container">Property List</Stack>
+    </div>
   );
 };
 
