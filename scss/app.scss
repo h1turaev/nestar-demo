@@ -1,16 +1,16 @@
-/** Imports **/
+/** IMPORTS **/
 @import "variables.scss";
 @import "reset.scss";
 
-/**PC Version**/
+/** VERSION PC **/
 #pc-wrap {
-    width: 100%;
-    height: 100%;
-    .container {
-        position: relative;
-        width: 1300px;
-        margin: 0 auto;
-        display: flex;
-
-    }
+  width: 100%;
+  height: 100%;
+  .container {
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+  }
 }
+
